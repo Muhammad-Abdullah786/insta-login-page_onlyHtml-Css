@@ -1,0 +1,147 @@
+*{
+    /* font-family:font-family: 'Poppins', sans-serif; */
+    font-family: 'Ysabeau Infant', sans-serif;;
+}
+
+
+body{
+     background-position: center;
+/* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("bg.png"); */
+background: url(bg.png);
+     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+.small_container .acc span{
+    padding-top: 20px;
+    margin-top: 200px;
+}
+.small_container{
+    width: 333px;
+    height: 30px;
+    border: 1px solid rgb(var(--ig-elevated-separator));
+margin: 60px auto;
+border-radius: 15px;
+position: relative;
+/* background:white; */
+background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+backdrop-filter: blur(10px);
+/* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+text-align: center;
+justify-content: center;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+
+
+
+.container{
+    width: 400px;
+    height: 470px;
+    border: 1px solid rgb(var(--ig-elevated-separator));
+margin: 60px auto;
+border-radius: 15px;
+position: relative;
+/* background:white; */
+background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+backdrop-filter: blur(10px);
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+::placeholder{
+    color: rgb(15, 13, 17);
+    column-gap: 10px;
+    font-size: large;
+}
+h3{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.container form input{
+    margin-bottom: 12px;
+    width: 100%;
+    border: 0;
+    padding: 12px 12px ;
+    border-bottom: 1px solid black;
+    /* border-radius: 12px; */
+    outline: none;
+    background: transparent;
+}
+.container form{
+    /* size: 40px; */
+    text-align:justify;
+    margin: 12px 40px 90px 27px;
+    display:inline-block ;
+}
+.btn {
+    text-align:right;
+    margin: 0px 30px 30px 10px ;
+}
+.btn a button{
+    border-radius: 12px;
+    font-size: 20px;
+    background:rgb(13, 158, 224) ;
+    width: 111%;
+    border: 2px solid rgb(13, 158, 224);
+    /* margin-right: 26px; */
+    /* margin-right: -17px; */
+    
+    /* transition:1s; */
+    
+}
+
+.orClass{
+    display: grid;
+    grid-template-columns: repeat(3, 6fr);
+    align-items: center;
+    text-align: center;
+}
+.orClass::before, .orClass::after{
+    content: "";
+    height: 1px;
+    background-color: black;
+    display: block;
+}
+.login{
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    font-weight: 400;
+}
+.f_pass{
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image{
+    margin-top: 23px;
+    margin-bottom: 23px;
+    text-align: center;
+}
