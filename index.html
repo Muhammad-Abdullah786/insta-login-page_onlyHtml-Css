@@ -16,18 +16,18 @@
 <body>
 
     <div class="container">
-        <form onsubmit="">
+        <form onsubmit="forrmValidation(event)">
             <div class="image"><img src="./insta_working.png" alt="error"></div>
-            <input type="text email number" placeholder="Enter your email" required>
-            <!-- <input type="email" placeholder="Email" required> -->
-            <input type="password" placeholder="Password" required>
-            <input type="password" placeholder="Confirm Password" required>
+            <input type="text email number" placeholder="Enter your email"  id="emailId">
+            <!-- <input type="email" placeholder="Email" > -->
+            <input type="password" placeholder="Password"  id="pawdId">
+            <input type="password" placeholder="Confirm Password"  id="confPwd">
             <div class="btn">
-                <a href="#"><button type="submit">Login</button></a>
+                <a href="#"><button type="submit" >Login</button></a>
             </div>
             <div class="orClass">OR</div>
             <div class="login"><a href="#"><i class="fa-brands fa-square-facebook "></i> login with facebook</a></div>
-            <div class="f_pass"><a href="#">Forgoten password?</a></div>
+            <div class="f_pass"><a href="#">Forogotten password?</a></div>
         </form>
     </div>
     <div class="small_container">
