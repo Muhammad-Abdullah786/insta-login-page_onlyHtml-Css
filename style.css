@@ -63,13 +63,14 @@ h3{
 }
 .container form input{
     margin-bottom: 12px;
-    width: 100%;
+    width: 90%;
     border: 0;
     padding: 12px 12px ;
     border-bottom: 1px solid black;
     /* border-radius: 12px; */
     outline: none;
     background: transparent;
+    
 }
 .container form{
     /* size: 40px; */
@@ -118,7 +119,11 @@ h3{
     text-decoration: none;
     font-style: normal;
 }
+.emailErrorIcon{
+    color: rgb(47, 52, 54);
+    font-size: 25px;
 
+}
 
 
 
