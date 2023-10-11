@@ -19,7 +19,7 @@ function displayErrorMessage( ) {
 }
 // this function will execute the when the use clicks agin
 function again() {
-    errorMesssage.style.display = "inline";
+    errorMesssage.style.display = "inline-block";
     // now we will put shake effect on the error message if user clicks again
     errorMesssage.style.color = "red";
     errorMesssage.classList.add("fa-shake");
@@ -44,6 +44,7 @@ function formValidation(e) {
     } else {
         if (emailNode.value.trim() === "") {
             return again();
+            console.log( "working");
         }
         if (passwordNode.value.trim() === "") {
             return again();
@@ -61,9 +62,15 @@ function formValidation(e) {
 // });
 
 // passwordNode.addEventListener("click", function () {
-//     displayErrorMessage();
+//     if (passwordNode.value === "") {
+        
+//         displayErrorMessage();
+//     }
 // });
 
 // confPasswordNode.addEventListener("click", function () {
-//     displayErrorMessage();
+//     if (confPasswordNode.value === "") {
+//         displayErrorMessage();
+        
+//     }
 // });
